@@ -1,6 +1,6 @@
 cp .jshintrc ~/
 cp .vimrc ~/
-sudo apt-get install git build-essential
+sudo apt-get install git build-essential curl
 sudo npm install -g jshint
 mkdir -p ~/.vim/autoload ~/.vim/bundle; \
 curl -Sso ~/.vim/autoload/pathogen.vim \
